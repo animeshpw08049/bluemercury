@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+   }
+
+img{
+    width: 20%;
+    margin-left: 39%;
+    margin-top: 2%;
+   }
+
+#par{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909392;
+    margin-bottom: 3%;
+   }
+
+#para{
+     color: black;
+   }
+
+    #lb3{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 19px;
+       color: black;
+       font-weight: 500;
+       margin-left: 28%;
+    }
+
+    #pp{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: #6F6F72;
+       font-size: 12px;
+       margin-left: 28%;
+       margin-bottom: 2%;
+    }
+    #card{
+       width: 47.5%;
+       margin:auto;
+       margin-left: 28%;
+       margin-bottom: 3%;
+       border: 1px solid #ccc;
+      
+    }
+
+    #radio{
+            width: 100%;
+            display: flex;
+            border: 1px solid #ccc;
+            padding: 6px;
+           }
+
+           #lb4{
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 17px;
+               font-weight: 550;
+               margin-left: 4%;
+               margin-top: 1.5%;
+              
+           }
+
+           #log{
+               margin-left: 43%;
+               margin-top: 1%;
+           }
+
+           #number{
+                padding: 10px;
+                width: 100%;
+                margin-top: 12px;
+                margin-bottom: 12px;
+                border: 1px solid #ccc;
+               }
+
+               #formm{
+                   padding:6px 15px 6px 15px;
+                   background-color: #E4E4E9;
+               }
+
+               #name{
+                padding: 10px;
+                width: 100%;
+                margin-bottom: 12px;
+                border: 1px solid #ccc;
+               }
+               #date{
+                padding: 10px;
+                width: 100%;
+                margin-bottom: 12px;
+                border: 1px solid #ccc;
+               }
+
+               #cvv{
+                padding: 10px;
+                width: 100%;
+                margin-bottom: 12px;
+                border: 1px solid #ccc;
+               }
+               
+               #in{
+                   display: flex;
+                   gap: 10px;
+               }
+
+               #radio1{
+                       width: 100%;
+                       display: flex;
+                       border: 1px solid #ccc;
+                       padding: 0px 6px 6px 6px;
+                       align-items: center;
+                   }
+                   #paypal{
+                       margin-left: 1%;
+                       width: 17%;
+                       margin-top: 1%;
+                       margin-bottom: 1%;
+                   }
+
+                   #radio2{
+                       width: 100%;
+                       display: flex;
+                       border: 1px solid #ccc;
+                       padding: 10px 6px 10px 6px;
+                       align-items: center;
+                      
+                   }
+          #logon{
+                 margin-left: 50%;
+                 margin-top: 0.5%;
+                 width: 7%;
+              }
+
+              #lb5{
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 15px;
+               font-weight: 550;
+               margin-left: 1%;
+               margin-top: 0.5%;
+              
+           }
+
+           #add{
+                    width: 47.5%;
+                    margin:auto;
+                    margin-left: 28%;
+                    margin-bottom: 3%;
+                    margin-top: 1%;
+                    align-items: center;
+      
+               }
+               #paraga{
+                       font-family: Verdana, Geneva, Tahoma, sans-serif;
+                       color: #737374;
+                       font-size: 17px;
+                       margin-left: 2%;
+                       margin-top: 0.5%;
+                       padding: 6px;
+                   }
+
+                   #form2{
+                               padding: 3px 20px 20px 20px;
+                               border: 1px solid #ccc;
+                       }
+
+    #Country{
+       padding: 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 13px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+    }
+
+    #in{
+     display: flex;
+     gap: 10px;
+ }
+
+ #in1{
+     display: flex;
+     column-gap: 3px;
+     width: 100%;
+  }
+
+  #Firstname{
+       padding: 10px 10px 10px 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       border-radius: 5px;
+       box-sizing: border-box;
+    }
+
+    #Lastname{
+       padding: 10px 10px 10px 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 10px;
+       margin-left: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       border-radius: 5px;
+       box-sizing: border-box;
+    }
+
+    #Address{
+       padding: 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       border-radius: 5px;
+    }
+
+    #Apartment{
+       padding: 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       border-radius: 5px;
+    }
+
+    #City{
+       padding: 10px 10px 10px 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       border-radius: 5px;
+    }
+
+    #State{
+       padding: 10px 10px 10px 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+    }
+    #Code{
+       box-sizing: border-box;
+       padding: 10px 10px 10px 10px;
+       width: 100%;
+       border: 1px solid #515252;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       border-radius: 5px;
+    }
+
+
+    #submit{
+                   box-sizing: border-box;
+                   padding: 10px 15px 10px 15px;
+                    border: 1px solid #515252;
+                    background-color: #020642;
+                    margin-top: 5%;
+                    margin-bottom: 40px;
+                    margin-left: 72%;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 15px;
+                    color: white;
+                    text-align: center;
+                    cursor: pointer;
+                    }
+
+           #bottom{
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-size: 15px;
+                color: #878789; 
+           }
+
+           #r{
+            cursor: pointer;
+        }

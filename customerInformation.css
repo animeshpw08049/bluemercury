@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+     img{
+        width: 20%;
+        margin-left: 39%;
+       
+     }
+
+     #par{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #909392;
+        margin-bottom: 3%;
+     }
+
+     #parag{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #909392;
+     }
+
+     a{
+      color: #909392;
+     }
+
+     #para{
+        color: #0B1740;
+     }
+
+     #lb1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: #0B1740;
+
+     }
+     #lb2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: #747676;
+
+     }
+     #email{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+     #middle{
+        width: 85%;
+        margin: auto;
+        margin-left: 7%;
+     }
+
+     #form2{
+        padding: 3px 20px 20px 20px;
+     }
+
+     #lb3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color:#0B1740;
+
+     }
+     #country{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #firstname{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+        box-sizing: border-box;
+     }
+    
+
+  #in1{
+   display: flex;
+   gap: 3px;
+   }
+
+     #lastname{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+        box-sizing: border-box;
+     }
+
+     #address{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #apartment{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #city{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #state{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+     #code{
+        box-sizing: border-box;
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #gotoship{
+        box-sizing: border-box;
+        padding: 10px 15px 10px 15px;
+        border: 1px solid #515252;
+        background-color: #020642;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-left: 52%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+     }
+
+    
+
+     #bottom{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: #878789; 
+      }
+
+  #check{
+       cursor: pointer;
+      }
+    
+   
+     
+     .p-grid {
+         width: 80%;
+         margin: 10px auto;
+     }
+     .p-grid > div:nth-child(1) {
+         display: grid;
+         grid-template-columns: 1fr 2fr 1fr;
+         grid-gap: 20px;
+     }
+     .p-grid > div:nth-child(1) img {
+         height: 100px;
+     }
+     .p-grid > div:nth-child(1) div:nth-child(2) {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+     }
+     .p-grid > div:nth-child(1) div:nth-child(2) p {
+         margin: 0;
+         padding: 0;
+     }
+     .p-grid > div:nth-child(1) div:nth-child(2) p:nth-child(1) {
+         font-size: 14px;
+         margin: 10px 0 10px 0;
+         font-weight: 400;
+     }
+     .p-grid > div:nth-child(1) div:nth-child(2) p:nth-child(2) {
+         color: rgba(18, 40, 76, 0.7);
+         font-size: 13px;
+     }
+     .p-grid div:nth-child(3) {
+         padding-top: 20px;
+     }
+     
+     #discount {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         border: 1px solid #12284c;
+         width: 80%;
+         margin: auto;
+         height: 40px;
+     }
+     #discount div input {
+         width: 100%;
+         height: 85%;
+     }
+     #discount div button {
+         width: 100%;
+         height: 100%;
+         background-color: #12284c;
+         color: white;
+         font-size: 14px;
+         font-weight: 700;
+     }
+     .tot {
+         width: 80%;
+         margin: auto;
+         display: flex;
+     }
+     .tot div:nth-child(2) {
+         flex-grow: 1;
+         text-align: right;
+     }
+     
+     

@@ -1,0 +1,674 @@
+/* header started */
+.header_link{
+  display: inline-block;
+  text-transform: uppercase;
+  color: #12284c;
+}
+.header_items_right{
+  text-transform: uppercase;
+  color: #12284c;
+  margin-left: 17px;
+  cursor: pointer;
+}
+.header_item{
+  display: flex;
+  width: 33.3%;
+}
+.header_left{
+justify-content: flex-start;
+height: 100%;
+}
+.header_center{
+ justify-content: center;
+}
+.header_right{
+  justify-content: flex-end;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  vertical-align: top;
+}
+.header_logo{
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 174px;
+  min-width: 139px;
+}
+.header_wrapper{
+  max-width: 1440px;
+  margin: auto;
+  padding: 10px 15px;
+  
+  display: flex;
+ 
+  flex-direction: row;
+  
+  align-items: center;
+  
+  justify-content: space-between;
+  transition: none;
+}
+.header_icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+p{
+color:  #12284c
+}
+.header_below{
+  display: flex;
+  justify-content: space-between;
+}
+.flex_margin{
+margin-left: 300px;
+margin-right: 300px;
+  
+}
+.hide {
+  display: none;
+  width: 100%;
+  height: 460px;
+  background-color: white;
+  margin: auto;
+  grid-template-columns: 200px 50px 200px 200px 300px;
+  padding-left: 200px;
+  padding-top: 30px;
+  position: fixed;
+  top: 140px;
+  z-index: 2;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #EEEEEE;
+}
+header {
+  position: fixed;
+  top: 0;
+  
+  
+  width: 100%;
+  z-index: 9;
+  will-change: transform;
+  background-color: white;
+}
+#heading_second_row{
+  display: flex;
+  margin-top: 20px;
+}
+#heading_second_row > div{
+  flex-basis: 120px;
+}
+#heading_second_row > div:nth-child(1),#heading_second_row > div:nth-child(8){
+  flex-grow: 1;
+}
+.heading_a{
+  text-decoration: none;
+  cursor: pointer;
+  font-weight:100;
+  color: rgba(18, 40, 76, 0.8);
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+}
+.heading_a:hover {
+  color: rgba(18, 40, 76);
+  font-weight: 400;
+}
+#shop {
+  text-decoration: none;
+}
+
+#disappear {
+  width: 20px;
+  margin: auto;
+}
+
+.btn1 {
+  width: 20px;
+  margin: auto;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+#shop_hover {
+  width: 100%;
+  height: 460px;
+  display: none;
+  margin: auto;
+  grid-template-columns: 200px 50px 200px 200px 300px;
+  padding-left: 200px;
+  padding-top: 30px;
+  position: fixed;
+  top: 140px;
+  z-index: 2;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #EEEEEE;
+}
+
+#shop_hover a {
+  text-decoration: none;
+  color: rgba(18, 40, 76, 0.6);
+  font-weight: 300;
+  
+}
+.two {
+  width: 0%;
+  height: 410px;
+  border: 0.1px solid #E0E0E0;
+}
+.menuanchor {
+  color: #12284c;
+  text-decoration: none;
+}
+/* header ended */
+/* small slider started */
+#slider{
+  overflow: hidden;
+  position: relative;
+  top: 40px;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure div {
+  height: 36px;
+  float: left;
+  width: 20%;
+  text-align: center;
+  text-size-adjust: 100%;
+  color: rgb(18, 40, 76);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 36px;
+  background-color: rgb(215, 235, 242);
+}
+@keyframes slider {
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  95% {
+      left: -300%;
+  }
+  100% {
+      left: -400%;
+  }
+}
+/* small slide done */
+
+/* footer started */
+#foot {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  width: 90%;
+  margin: 25px auto;
+  grid-gap: 50px;
+  color: #7d7d7d;
+}
+.copyright{
+  font-size: 10px;
+}
+#socialicons{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  color: #12284c;
+}
+#foot_p{
+  color: #999999; 
+  font-size:14px;
+}
+#underline{
+  text-decoration: underline;
+}
+
+/* footer done */
+
+/* css of new-arrival page */
+body{
+  font-family: Montserrat Light,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #12284c;
+}
+.newarrival_left{
+    width: 20%;
+    margin-left: 25px;
+}
+.newarrival_right{
+    width: 80%;
+    margin-left: 70px;
+    padding-right: 40px
+}
+#newarrival_container{
+    display: flex;
+}
+.content_box {
+    background: #d7ebf2;
+    color: #12284c;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+}
+.collectionHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 0 15px;
+    padding: 30px 0 12px;
+    margin-top: 50px;
+}
+.header_title{
+    color: #12284c;
+    font-family: Montserrat Regular,sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    text-transform: uppercase
+}
+ .sortHeader{
+    color: #12284c;
+    font-size: 14px;
+    font-family: Montserrat Medium,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    line-height: 40px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.sort{
+    display: flex;
+    padding-top: 15px;
+}
+#filterrole {
+    width: 200px;
+    height: 40px;
+    border: 0.5px solid #dcdcdc;
+    color: #12284c;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Montserrat Light,sans-serif;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    letter-spacing: .2px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.totalfilter{
+    color: #12284c;
+    font-size: 14px;
+    font-family: Montserrat Medium,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    line-height: 24px;
+}
+.gridoption{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.showOSS{
+    display: flex;
+    margin: 0 25px 0 auto;
+}
+.showOSS_title{
+    color: #12284c;
+    font-family: Montserrat Light,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: .2px;
+    line-height: 27px;
+    margin-top: -2px;
+    margin-right: 12px;
+}
+.filter {
+    display: flex;
+}
+ 
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    border: 1px solid #c4c9ca;
+    border-radius: 12px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .sliderbtn {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .sliderbtn:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 12px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .sliderbtn {
+    background-color: #5e769b;
+    color: #fff;
+    padding-left: 7px;
+    padding-top: 3px
+  }
+  
+  input:focus + .sliderbtn {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .sliderbtn:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .sliderbtn.round {
+    border-radius: 34px;
+  }
+  
+  .sliderbtn.round:before {
+    border-radius: 50%;
+  }
+  .result{
+    color: #12284c;
+    font-size: 12px;
+    font-family: Montserrat Light,sans-serif;
+    font-weight: 300;
+    text-align: right;
+    letter-spacing: .17px;
+    padding-top: 4px;
+  }
+  #collectionProductCardGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+  }
+  .SubCollectionsHeader{
+    color: #12284c;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: Montserrat Medium,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 18px;
+    padding-right: 16px;
+    position: relative;
+    text-transform: uppercase;
+}
+.SubCollectionsSubHeader {
+    color: #12284c;
+    font-family: Montserrat Light,sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: .14px;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+.SubCollections__Header{
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 7px;
+    margin-top: 54px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #12284c;
+    font-family: Montserrat Light,sans-serif;
+
+}
+.breadcrumb{
+    margin-top: 45px;
+}
+  
+.SubCollection{
+    color: #12284c;
+    font-family: Montserrat Light,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .2px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+  .SubCollections__Links {
+    overflow-y: auto;
+    margin-bottom: 30px;
+    transition: height .3s;
+  }
+  .SubCollections__Links >  .SubCollection{
+    text-decoration: none;
+    display: block;
+  }
+  .FilterCategory__Header{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    color: #12284c;
+    font-size: 14px;
+    font-family: Montserrat Medium,sans-serif;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 24px;
+    border-bottom: 1px solid #d8d8d8;
+    padding-top: 15px;
+  }
+  .FiltersHeader {
+    color: #12284c;
+    font-family: Montserrat Medium,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.productCardBrand{
+  color: rgb(18, 40, 76);
+    font-size: 14px;
+    text-align: center;
+}
+.ProductCard__Title{
+  font-family: "Montserrat Light", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    line-height: 20px;
+    margin: 8px 0px 4px;
+    color: rgb(18, 40, 76);
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+}
+.productCardPrice{
+  font-family: "Montserrat Light", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    margin: 4px 8px 0px;
+    text-align: center;
+}
+.productcard{
+   margin-bottom: 38px;
+   
+}
+.addbtn{
+  align-items: center;
+    background-color: #12284c;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    height: 44px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    margin: 16px;
+    text-align: center;
+    width: calc(100% - 32px);
+    cursor: pointer;
+}
+i.fa-solid.fa-cart-shopping {
+  margin-right: 10px;
+}
+.merchbadge{
+  background-color: #fff;
+    color: #666;
+    font-family: Montserrat Semi Bold,sans-serif;
+    font-size: 10px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.merchbadgeCB{
+  background-color: #fff;
+    color: #666;
+    font-family: Montserrat Semi Bold,sans-serif;
+    font-size: 10px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+img.productImage {
+  width: 200px;
+  margin: auto;
+  margin-top: -12px;
+}
+button.pagingButton {
+  cursor: pointer !important;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 65px;
+  border: none;
+  background: #fff;
+}
+.CollectionsGrid__Pages {
+  width: 40%;
+  text-align: center;
+  margin: 50px 0px;
+  border-bottom: 1px solid rgb(18, 40, 76);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.PreviousPage , .NextPage  {
+  border: none;
+  background: #fff;
+}
+.icon-img {
+  width: 14px;
+}
+.Icon{
+  display: flex;
+    height: 16px;
+    width: 16px;
+    margin: auto 0;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 8px);
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.TotalFilter {
+  font-size: 10px;
+  font-family: Montserrat Light,sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  letter-spacing: .14px;
+  line-height: 13px;
+  margin-bottom: 10px;
+}
+.darkText {
+  color: gray !important;
+}
+#pagingButtons {
+  cursor: pointer;
+}
+button.NextPage {
+  cursor: pointer;
+}
+.lessbtn{
+  cursor: pointer;
+}
+span.merchbadge {
+  padding-right: 142px;
+}
+
+
+
+/*  product page css done */
+
+/* media query*/
+@media only screen and (max-width: 768px) {
+  #collectionProductCardGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  .productCardBrand {
+    color: rgb(18, 40, 76);
+    font-size: 5px;
+    text-align: center;
+}
+.newarrival_left {
+  display: none;
+}
+
+}
